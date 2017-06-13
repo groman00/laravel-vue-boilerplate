@@ -1,0 +1,98 @@
+// ==========================================================================
+// Colors
+// ==========================================================================
+
+// Color Names
+$black: #000;
+$white: #fff;
+$aqua: #00d6d6;
+$purple: #7e5ae3;
+$violet: #c229b9;
+$green: #0dbe98;
+$blue: #265af1;
+$red: #ff3b21;
+$pink: #f03164;
+$yellow: #f9e63e;
+$orange: #ee7406;
+
+// Grayscale
+$gray-dark: #333;
+$gray: #464a4c;
+$gray-light: #636c72;
+$gray-lighter: #eceeef;
+$gray-lightest: #f7f7f9;
+
+// Theme Colors
+$brand-primary: $green;
+$brand-warning: $orange;
+$brand-danger: $red;
+
+// ==========================================================================
+// Gutters and Spacing
+// ==========================================================================
+
+$spacer: 1rem;
+$gutter-small: 12px;
+$gutter: 24px;
+$gutter-large: $gutter-small + $gutter;
+$gutter-huge: $gutter * 2;
+
+// ==========================================================================
+// Components
+// ==========================================================================
+
+// Border Radius
+$border-radius: .25rem;
+$border-radius-lg: 2rem;
+$border-radius-sm: .2rem;
+
+// Transitions
+$transition-base: all .3s ease-in-out;
+$transition-fade: opacity .3s linear;
+$transition-transform: transform .3s ease-in-out;
+
+// App bar
+$app-bar-height: 50px;
+
+// ==========================================================================
+// Links
+// ==========================================================================
+
+$link-color: $brand-primary;
+$link-hover-color: darken($link-color, 15%);
+$link-decoration: none;
+$link-hover-decoration: underline;
+
+// ==========================================================================
+// Fonts
+// ==========================================================================
+
+// Font Family
+$font-family-sans-serif: Arial, sans-serif;
+$font-family-serif: Times, serif;
+$font-family-base: $font-family-sans-serif;
+
+$font-size-base: 1rem; // Assumes the browser default, typically `16px`
+$font-size-lg: 1.25rem;
+$font-size-sm: .875rem;
+$font-size-xs: .75rem;
+
+$font-weight-normal: 400;
+$font-weight-medium: 600;
+$font-weight-bold: 700;
+
+$font-weight-base: $font-weight-normal;
+$line-height-base: 1.5;
+
+$font-size-h1: 2.5rem;
+$font-size-h2: 2rem;
+$font-size-h3: 1.75rem;
+$font-size-h4: 1.5rem;
+$font-size-h5: 1.25rem;
+$font-size-h6: 1rem;
+
+$headings-margin-bottom: ($spacer / 2);
+$headings-font-family: inherit;
+$headings-font-weight: 500;
+$headings-line-height: 1.1;
+$headings-color: inherit;

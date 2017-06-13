@@ -1,0 +1,11 @@
+@import "~normalize.css/normalize.css";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    color: $black;
+    background-color: $white;
+}

@@ -1,0 +1,27 @@
+.row {
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: stretch;
+
+    .col-1,
+    .col-2,
+    .col-3,
+    .col-4,
+    .col-5,
+    .col-6,
+    .col-7,
+    .col-8,
+    .col-9,
+    .col-10,
+    .col-11,
+    .col-12 {
+        padding-left: $gutter-small;
+        padding-right: $gutter-small;
+    }
+}
+
+@for $i from 1 to 13 {
+    .col-#{$i} {
+        flex: 0 0 ($i / 12) * 100%;
+    }
+}

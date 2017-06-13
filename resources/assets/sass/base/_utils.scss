@@ -1,0 +1,50 @@
+.cover-parent {
+    @include cover-parent(absolute);
+}
+
+.flipped {
+    transform: scaleX(-1);
+}
+
+.hide {
+    display: none;
+}
+
+.text-italic {
+    font-style: italic;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.bg-primary {
+    background-color: $brand-primary;
+
+    &,
+    a {
+        color: $white;
+    }
+}
+
+.bg-dark {
+    background-color: $gray-dark;
+
+    &,
+    a {
+        color: $white;
+    }
+}
+
+.bg-light {
+    background-color: $white;
+
+    &,
+    a {
+        color: $black;
+    }
+}
